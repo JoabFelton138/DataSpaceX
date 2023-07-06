@@ -1,0 +1,379 @@
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.navbar-nav > li a{
+    margin-right: 25px;
+} 
+
+.navbar-brand {
+    margin-left:75px;
+    color: white !important; 
+    font-size: 23px; 
+    margin-left: 50px; 
+    border-style: solid; 
+    width: 125px;
+    padding-left: 11px; 
+    border-color: rgb(224, 32, 32); 
+    background-color: rgb(224, 32,  32);
+}
+
+.dropdown-menu{
+    background-color: rgb(255, 240, 240)!important;
+}
+
+.dropdown-menu > a:hover{
+    background-color: rgb(224, 32,  32) !important;
+    color: white !important;
+}
+
+
+.col-md-4 > h1{
+    margin-top: 40px;
+}
+
+.bgred{
+    background-color: rgb(255, 240, 240);
+}
+
+.navbar-nav > li{
+    padding-left:1px;
+    padding-right:1px;
+}
+
+nav .navbar-nav li a{
+    color: black !important;
+    font-weight: 600;
+}
+
+nav .navbar-nav li > a:hover{
+    background-color: rgb(224, 32,  32) !important;
+    color: white !important;
+} 
+
+.col-md-12{
+    margin-top: 25px;
+}
+
+.btn-danger, 
+.btn-danger:active, 
+.btn-danger:visited,
+.btn-danger:focus {
+    background-color: rgb(205, 36, 36) !important;
+    border-color: rgb(205, 36, 36) !important;
+}
+
+#aboutContainer {
+    margin-top: 50px;
+    text-align: center;  
+    display:flex;
+    justify-content: space-between;
+}
+
+#aboutContainer > div > p {
+    padding-top: 6px;
+    font-size: 30px; 
+}
+
+#aboutContainer > div > h3 {
+    font-size: 42px;
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+#aboutContainer > div > h3:before{
+    content: "";
+    position: absolute;
+    width: 68%;
+    height: 1px;
+    bottom: 0;
+    left: 17%;
+    border-bottom: 4px solid rgb(226,43,43);
+}
+
+.topLeftCircle {
+    width:90px; 
+    height:90px; 
+    background: rgb(192, 195, 203); 
+    border-radius: 90px 0 0 0;
+}
+
+.bottomRightCircle {
+    width:90px; 
+    height:90px; 
+    background: rgb(192, 195, 203); 
+    border-radius: 0 0 0 90px;
+}
+
+.topRightCircle{
+    width:90px; 
+    height:90px; 
+    background: rgb(192, 195, 203); 
+    border-radius: 0 90px 0 0;
+}
+
+.bottomLeftCircle{
+    width:90px; 
+    height:90px; 
+    background: rgb(192, 195, 203); 
+    border-radius: 0 0 90px 0;
+}
+
+#keyFeatures {
+    margin-top: 45px;
+    text-align: center;
+    height: 256px;
+}
+
+#keyFeatures  > h2 {
+    font-size: 40px;
+    font-weight: 365;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+#keyFeatures > h2:before{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    content: "";
+    position: absolute;
+    width: 46%;
+    height: 0.5px;
+    bottom: 0;
+    left: 28%;
+    border-bottom: 3.5px solid rgb(226,43,43);
+}
+
+.thumbnail {
+   box-shadow: 5px 10px rgb(85,85,85);
+
+}
+
+.ourServiceOffering {
+    text-align: center;
+    background-color:rgb(172,172,172);
+}
+
+.ourServiceOffering > h3{
+    margin-top: 200px;
+    margin-bottom: 2px;
+    font-size: 42px;
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    color:white;
+}
+
+.ourServiceOffering > h3:before{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 1px;
+    bottom: 0;
+    left: 23%;
+    border-bottom: 4px solid rgb(226,43,43);
+}
+
+
+.ourServiceOffering > .col-md-12 {
+    margin-top: 4px;
+}
+
+.col-md-4 > p{
+    color:white; 
+    font-size: 25px;
+}
+
+.card {
+    width: 235px;
+    height:375px;
+}
+
+.card > img{
+    width: 180px;
+    margin-top: 8px;
+}
+
+.carousel-inner img {
+    margin: auto;
+  }
+
+.card-body{
+    text-align: center;
+}
+.card-body > h3{
+    padding-top: 3px;
+    font-weight: bold;
+}
+
+.card-body > p{
+    padding-top: 2px;
+    font-size: 12.5px;
+}
+
+.container {
+    padding-top: 18px;
+}
+
+.center-divs{
+    float: none;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.thumbnails {
+    text-align:center;
+}
+
+.thumbnails > li {
+    display: inline-block;
+    *display:inline; /* ie7 fix */
+    float: none; /* this is the part that makes it work */
+}
+
+.container > .row{
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.circle{
+
+    border:1px solid red;    
+    height:100px;
+    border-radius:50%;
+    width:100px;
+}
+
+#inam .carousel-control-prev-icon {
+    height: 50px;
+    width: 30px;
+}
+
+.carousel-control-icon-circle > .carousel-control-next-icon {
+    height: 50px;
+    width: 30px;
+}
+
+.carousel-control-icon-circle {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(205, 36, 36);
+  border-radius: 50%;
+}
+
+.padding-0 {
+    padding-right:0 !important;
+    padding-left:0 !important;
+}
+
+.margin-bottom{
+    margin-bottom: 50px !important;
+}
+
+.JuniperX{
+    margin-top: 75px;
+    text-align: center;
+
+}
+
+.JuniperX > h4 {
+    text-align: left; 
+    color:white; 
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+.JuniperX > p {
+    text-align: left; 
+    color:white; 
+    font-size: 22px; 
+    margin-top: 20px; 
+    letter-spacing: 4px;
+    margin: 1px;
+}
+
+.Mars{
+    margin-top: 75px;
+}
+
+.Mars > h4 {
+    text-align:right; 
+    color:white; 
+    font-size:25px; 
+    font-weight:bold;
+}
+
+.Mars > p{
+    text-align:right; 
+    color:white; 
+    font-size:22px; 
+    margin-top:25px; 
+    letter-spacing: 4px;
+    margin: 1px;
+    
+}
+
+#NeptuneX{
+    margin-top: 100px;
+}
+
+#NeptuneX > h4{
+    text-align: left; 
+    color:white; 
+    font-size: 25px; 
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+#NeptuneX > p{
+    text-align: left; 
+    color:white; 
+    font-size: 22px; 
+    letter-spacing: 4px;
+    margin: 1px;
+}
+
+.b{
+    background-color:rgb(172,172,172);
+    margin-bottom: 450px;
+}
+
+/* .clickableDiiv :hover {
+    background-color:#FF9933;
+    text-decoration:none;
+    color:#FFFFFF;
+  } */
+
+.clickableDiiv:hover {
+    position: relative;
+    cursor:pointer;
+    /* background-color:#EC5500; */
+    
+  }
+
+  .clickableDiiv > a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px; 
+    overflow: hidden;
+  }
+
+
+
+/* .modal-content  {
+    background-color: rgb(255, 240, 240) !important;
+} */
+
